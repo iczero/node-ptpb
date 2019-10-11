@@ -1,0 +1,37 @@
+{
+  "name": "ptpb",
+  "version": "0.1.0",
+  "description": "A simple command-line interface for the ptpb pastebin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pb": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iczero/node-ptpb.git"
+  },
+  "keywords": [
+    "ptpb",
+    "pastebin"
+  ],
+  "author": "iczero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iczero/node-ptpb/issues"
+  },
+  "homepage": "https://github.com/iczero/node-ptpb#readme",
+  "dependencies": {
+    "form-data": "^2.5.1",
+    "got": "^9.6.0",
+    "js-yaml": "^3.13.1",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "@hellomouse/eslint-config": "^1.1.4",
+    "eslint": "^6.5.1",
+    "eslint-plugin-jsdoc": "^15.10.0"
+  }
+}
