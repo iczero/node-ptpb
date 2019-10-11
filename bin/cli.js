@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Api = require('../src/ptpb.js');
 const yargs = require('yargs');
 const fs = require('fs');

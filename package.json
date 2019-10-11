@@ -1,6 +1,6 @@
 {
   "name": "ptpb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple command-line interface for the ptpb pastebin",
   "main": "index.js",
   "scripts": {
